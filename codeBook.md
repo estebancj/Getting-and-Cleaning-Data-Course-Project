@@ -28,6 +28,6 @@ Script called run_analysis.R do following steps in order to preprocess data:
 * dataSetSubject: subjectTrain and subjectTest combined
 * datasets: dataSetA, dataSetB and  dataSetSubject combined
 
-# Variables 
+# Normal Variables 
 * metrics: The position (column number) of the mean and standard deviation metrics on features file
 * tidyData:  Independent tidy data set with the average of each variable for each activity and each subject.
