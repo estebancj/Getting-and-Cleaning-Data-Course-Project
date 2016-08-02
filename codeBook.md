@@ -2,7 +2,6 @@
 
 Script called run_analysis.R do following steps in order to preprocess data:
 * Download the UCI HAR Dataset: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
-* In order to run the script, change the path to your dataset folder using setwd command.
 * Load the train,test and subject parts of UCI HAR Dataset using read.table command.
 * Merge the training and test dataset together using rbind command.
 * Extract the features names of the whole dataset (using read.table command) and then apply a grep command to filter the names.
